@@ -227,3 +227,13 @@ This work investigates whether LLMs can simulate individual users' social-media 
 This work proposes **Conditioned Comment Prediction (CCP)** as an operational framework for evaluating whether LLMs can realistically simulate individual social-media users. Instead of relying only on persona descriptions, the framework asks an LLM to predict how a specific user would respond to a given stimulus and compares the generated response with the user's authentic digital traces. Experiments with Llama-3.1, Qwen3, and Ministral across English, German, and Luxembourgish show an important **form–content decoupling**: supervised fine-tuning can improve surface-level properties such as length and syntax while degrading semantic grounding. The authors further find that explicit generated biographies become less useful after fine-tuning because models can infer user characteristics directly from behavioral histories. The work therefore argues that **authentic behavioral traces may be more informative than manually constructed personas for high-fidelity social-agent simulation**.
 
 ---
+
+### [30] Jiarui Ji, Zehua Zhang, Zhewei Wei, Bin Tong, Guan Wang, Bo Zheng (2026)
+
+**[GRAPHIA: Harnessing Social Graph Data to Enhance LLM-Based Social Simulation](https://aclanthology.org/2026.acl-long.322/)**
+
+**Venue:** **ACL 2026 — Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 7103–7128**
+
+This work proposes **GRAPHIA**, a general LLM-based social graph simulation framework that uses real social graphs as supervision for LLM post-training through reinforcement learning. The framework employs **GNN-based structural rewards** to train specialized agents to learn both **whom to interact with (destination selection)** and **how to interact (edge generation)**, thereby jointly modeling microscopic agent behavior and macroscopic social-network evolution. It evaluates the framework under two settings: **Transductive Dynamic Graph Generation (TDGG)** for micro-level interaction alignment and **Inductive Dynamic Graph Generation (IDGG)** for macro-level network-structure alignment. Experiments on three real-world networks show improvements in destination selection, edge classification, interaction-content quality, structural similarity, and the reproduction of emergent social phenomena such as power-law distributions and echo chambers. The work demonstrates that **social graphs can serve as direct supervision signals for learning LLM social behavior**, closing the gap between individual agent behavior and evolving social-network dynamics.
+
+---

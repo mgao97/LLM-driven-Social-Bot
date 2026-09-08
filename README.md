@@ -146,4 +146,84 @@ This work proposes **RoleSimLLM**, a role-based framework for large-scale social
 
 ---
 
+### [22] Yunyao Zhang, Zikai Song, Hang Zhou, Wenfeng Ren, Yi-Ping Phoebe Chen, Junqing Yu, Wei Yang (2025)
 
+**[GA-S³: Comprehensive Social Network Simulation with Group Agents](https://aclanthology.org/2025.findings-acl.468/)**
+
+**Venue:** Findings of the Association for Computational Linguistics: ACL 2025, pp. 8950–8970
+
+This work proposes **GA-S³**, a comprehensive social-network simulation system based on LLM-driven **Group Agents**. Instead of simulating billions of individual users separately, Group Agents represent collections of users with similar behavioral characteristics, substantially improving simulation scalability. The framework consists of hierarchical group generation, decision-reasoning, and action modules, where group profiles are dynamically generated according to environmental events and agents update their memory, emotions, attitudes, and behaviors during simulation. The authors further construct a social-network benchmark from popular online events in 2024 and demonstrate that GA-S³ can reproduce realistic social-network dynamics at substantially lower computational cost.
+
+---
+
+### [23] Gian Marco Orlando, Valerio La Gatta, Diego Russo, Vincenzo Moscato (2025)
+
+**[Can Generative Agent-Based Modeling Replicate the Friendship Paradox in Social Media Simulations?](https://dl.acm.org/doi/10.1145/3717867.3717895)**
+
+**Venue:** Proceedings of the 17th ACM Web Science Conference 2025 (WebSci 2025), pp. 510–515
+
+This work investigates whether **Generative Agent-Based Modeling (GABM)** can reproduce global network-level phenomena observed in real social media. The authors construct LLM-driven generative agents with distinct personalities and interests and evaluate whether the **Friendship Paradox** emerges naturally in simulated social networks. Experiments using Twitter data related to the 2020 US election and the QAnon conspiracy show that the friendship paradox emerges without explicitly programming the agents with this behavioral rule. The simulations also reproduce hierarchical network structures in which agents preferentially connect with users exhibiting higher activity or influence, demonstrating that LLM-based agents can generate non-trivial emergent network phenomena.
+
+---
+
+### [24] Bincheng Gu, Min Gao, Junliang Yu, Zongwei Wang, Zhiyi Liu, Kai Shu, Hongyu Zhang (2026)
+
+**[Ahead of the Spread: Agent-Driven Virtual Propagation for Early Fake News Detection](https://arxiv.org/abs/2601.02750)**
+
+**Venue:** arXiv / CoRR, 2026
+
+This work proposes **AVOID (Agent-driven Virtual prOpagatIon for early fake news Detection)**, which reformulates early fake-news detection as an **evidence-generation problem**. Instead of waiting for real propagation signals that may not yet exist, the framework uses LLM-powered agents with differentiated roles and data-driven personas to simulate plausible early-stage information diffusion. The generated virtual propagation trajectories provide complementary social evidence for fake-news detection, while a denoising-guided fusion mechanism aligns simulated propagation with the semantics of the original content. The work demonstrates that LLM-driven social simulation can be used not only to reproduce social behavior but also to generate otherwise unavailable social-network evidence for downstream prediction tasks.
+
+---
+
+### [25] Jiarui Ji, Runlin Lei, Xuchen Pan, Zhewei Wei, Hao Sun, Yankai Lin, Xu Chen, Yongzheng Yang, Yaliang Li, Bolin Ding, Ji-Rong Wen (2026)
+
+**[Leveraging LLM-based Agents for Social Science Research: Insights from Citation Network Simulations](https://www.nature.com/articles/s41599-025-06193-w)**
+
+**Venue:** Humanities and Social Sciences Communications, Vol. 13, Article 127, 2026
+
+This work introduces **CiteAgent**, an LLM-agent-based framework for simulating the evolution of citation networks. The framework models authors and papers as interacting entities and uses LLM agents to simulate behaviors such as author selection, paper creation, and citation decisions. CiteAgent successfully reproduces several empirical properties of real citation networks, including **power-law degree distributions, citation distortion, and shrinking network diameter**. The authors further use the simulated networks to establish LLM-based survey and laboratory experiments for social-science research, demonstrating how LLM agents can be used as computational subjects for studying social and scientific behaviors.
+
+---
+
+### [26] Insaf Kraidia, Iyas Qaddara, Alhanof Almutairi, Nada Alzaben, Samir Brahim Belhouari (2026)
+
+**[When Collaboration Fails: Persuasion Driven Adversarial Influence in Multi Agent Large Language Model Debate](https://www.nature.com/articles/s41598-026-42705-7)**
+
+**Venue:** Scientific Reports, Vol. 16, Article 11640, 2026
+
+This work investigates **persuasion-driven adversarial behavior** in multi-agent LLM systems. It demonstrates that a strategically designed adversarial agent can manipulate cooperative agents through coherent, confident, and misleading natural-language arguments without modifying model parameters or using traditional prompt or token attacks. Experiments show that a single adversarial agent can reduce collective accuracy by approximately 10–40% and substantially increase consensus on incorrect answers. The study further finds that techniques such as Best-of-N optimization and RAG can unintentionally amplify persuasive attacks by increasing the perceived credibility of misleading arguments. The work highlights that **social influence and persuasion should be treated as explicit behavioral mechanisms and potential vulnerabilities in LLM-agent societies**.
+
+---
+
+### [27] Erica Coppolillo, Federico Cinus, Marco Minici, Francesco Bonchi, Giuseppe Manco (2025)
+
+**[Engagement-Driven Content Generation with Large Language Models](https://dl.acm.org/doi/10.1145/3711896.3736932)**
+
+**Venue:** Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2025), Vol. 2, pp. 369–379
+
+This work studies whether LLMs can learn to generate content that **maximizes social-media engagement within an entire network**, rather than optimizing only for one-to-one interactions. It proposes a reinforcement-learning framework in which an LLM generates content, injects it into a simulated social network, and receives a reward determined by an engagement model that captures network-level propagation and interaction. The learning process adapts to the underlying opinion distribution and network conditions while treating the engagement model as a plug-and-play component. This work is particularly relevant because it explicitly formulates an LLM's content-generation process as a **policy optimized through feedback from a social environment**.
+
+---
+
+### [28] Zhongyi Qiu, Hanjia Lyu, Wei Xiong, Jiebo Luo (2025)
+
+**[Can LLMs Simulate Social Media Engagement? A Study on Action-Guided Response Generation](https://arxiv.org/abs/2502.12073)**
+
+**Venue:** arXiv / CoRR, 2025
+
+This work investigates whether LLMs can simulate individual users' social-media engagement behavior. The proposed framework first predicts a user's likely engagement action—**retweet, quote, or rewrite**—and then generates a response conditioned on the predicted action. The authors evaluate GPT-4o-mini, o1-mini, and DeepSeek-R1 and find that zero-shot LLMs underperform BERT in engagement-action prediction, while few-shot prompting improves the semantic alignment of generated responses with real user posts. The study emphasizes that realistic social-media simulation requires modeling **behavioral actions in addition to textual content**.
+
+> **Duplicate of [13].** The link provided here is the arXiv version of the same paper already listed as [13]. It should not be counted as a new paper in the final bibliography.
+
+---
+
+### [29] Nils Schwager, Simon Münker, Alistair Plum, Achim Rettinger (2026)
+
+**[Towards Simulating Social Media Users with LLMs: Evaluating the Operational Validity of Conditioned Comment Prediction](https://aclanthology.org/2026.wassa-1.16/)**
+
+**Venue:** The Proceedings of the 15th Workshop on Computational Approaches to Subjectivity, Sentiment & Social Media Analysis (WASSA 2026), pp. 208–221
+
+This work proposes **Conditioned Comment Prediction (CCP)** as an operational framework for evaluating whether LLMs can realistically simulate individual social-media users. Instead of relying only on persona descriptions, the framework asks an LLM to predict how a specific user would respond to a given stimulus and compares the generated response with the user's authentic digital traces. Experiments with Llama-3.1, Qwen3, and Ministral across English, German, and Luxembourgish show an important **form–content decoupling**: supervised fine-tuning can improve surface-level properties such as length and syntax while degrading semantic grounding. The authors further find that explicit generated biographies become less useful after fine-tuning because models can infer user characteristics directly from behavioral histories. The work therefore argues that **authentic behavioral traces may be more informative than manually constructed personas for high-fidelity social-agent simulation**.
+
+---

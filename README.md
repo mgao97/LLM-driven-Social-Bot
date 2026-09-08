@@ -82,7 +82,7 @@ This work investigates whether LLMs can simulate users' social-media engagement 
 
 ---
 
-### [14] Xintao Wang, Jian Yang, Weiyuan Li, Rui Xie, Jen-tse Huang, Jun Gao, Shuai Huang, Yueping Kang, Liyuan Gou, Hongwei Feng, Yanghua Xiao (2026)
+### [14] Xintao Wang, Jian Yang, Weiyuan Li, Rui Xie, Jen-tse Huang, Jun Gao, Shuai Huang, Yueping Kang, Liyuan Gou, Hongwei Feng, Yanghua Xiao (2026, arXiv)
 
 **[HUMANLLM: Benchmarking and Reinforcing LLM Anthropomorphism via Human Cognitive Patterns](https://arxiv.org/abs/2601.10198)**
 
@@ -90,7 +90,7 @@ This work studies whether LLMs can exhibit human-like behavior by modeling under
 
 ---
 
-### [15] Changgeon Ko, Jisu Shin, Hoyun Song, Huije Lee, Eui Jun Hwang, Jong C. Park (2026)
+### [15] Changgeon Ko, Jisu Shin, Hoyun Song, Huije Lee, Eui Jun Hwang, Jong C. Park (2026, ACL)
 
 **[Social Dynamics as Critical Vulnerabilities that Undermine Objective Decision-Making in LLM Collectives](https://aclanthology.org/2026.acl-long.1756/)**
 
@@ -98,7 +98,7 @@ This work investigates how social dynamics influence decision-making among LLM a
 
 ---
 
-### [16] D. Xue, J. Cui, S. Qian, C. Hu, C. Xu (2026)
+### [16] D. Xue, J. Cui, S. Qian, C. Hu, C. Xu (2026, AAAI)
 
 **[SoMe: A Realistic Benchmark for LLM-based Social Media Agents](https://ojs.aaai.org/index.php/AAAI/article/view/37113)**
 
@@ -106,7 +106,7 @@ This work introduces **SoMe**, a benchmark for evaluating LLM-based social-media
 
 ---
 
-### [17] Jinghua Piao, Yuwei Yan, Jun Zhang, Nian Li, Junbo Yan, Xiaochong Lan, Zhihong Lu, Zhiheng Zheng, Jing Yi Wang, Di Zhou, Chen Gao, Fengli Xu, Fang Zhang, Ke Rong, Jun Su, Yong Li (2026)
+### [17] Jinghua Piao, Yuwei Yan, Jun Zhang, Nian Li, Junbo Yan, Xiaochong Lan, Zhihong Lu, Zhiheng Zheng, Jing Yi Wang, Di Zhou, Chen Gao, Fengli Xu, Fang Zhang, Ke Rong, Jun Su, Yong Li (2026, Information Fusion)
 
 **[AgentSociety: Large-Scale Simulation of LLM-Driven Generative Agents Advances Understanding of Human Behaviors and Society](https://arxiv.org/abs/2502.08691)**
 
@@ -114,7 +114,7 @@ This work presents **AgentSociety**, a large-scale simulation platform for study
 
 ---
 
-### [18] Aleksandar Tomašević, Darja Cvetković, Sara Major, Slobodan Maletić, Miroslav Anđelković, Ana Vranić, Boris Stupovski, Dušan Vudragović, Aleksandar Bogojević, Marija Mitrović Dankulov, et al. (2026)
+### [18] Aleksandar Tomašević, Darja Cvetković, Sara Major, Slobodan Maletić, Miroslav Anđelković, Ana Vranić, Boris Stupovski, Dušan Vudragović, Aleksandar Bogojević, Marija Mitrović Dankulov, et al. (2026, EPJ Data Science)
 
 **[Towards Operational Validation of LLM-Agent Social Simulations: A Replicated Study of a Reddit-like Technology Forum](https://link.springer.com/article/10.1140/epjds/s13688-026-00674-x)**
 
@@ -122,7 +122,7 @@ This work addresses the challenge of validating whether LLM-agent social simulat
 
 ---
 
-### [19] Ljubiša Bojić, Alexander Felfernig, Bojana Dinić, Velibor Ilić, Achim Rettinger, Vera Mevorah, Damian Trilling, et al. (2026)
+### [19] Ljubiša Bojić, Alexander Felfernig, Bojana Dinić, Velibor Ilić, Achim Rettinger, Vera Mevorah, Damian Trilling, et al. (2026, Scientific Reports)
 
 **[Persona-prompted LLM agents achieve modest but genuine prediction of human social media reactions](https://www.nature.com/articles/s41598-026-66277-8)**
 
@@ -130,7 +130,7 @@ This work evaluates whether persona-prompted LLM agents can predict how individu
 
 ---
 
-### [20] Philipp J. Schneider, Lin Tian, Marian-Andrei Rizoiu (2025/2026)
+### [20] Philipp J. Schneider, Lin Tian, Marian-Andrei Rizoiu (2025, NeurIPS Workshop on Scaling Environments for Agents (SEA))
 
 **[Learning to Make Friends: Coaching LLM Agents toward Emergent Social Ties](https://arxiv.org/abs/2510.19299)**
 
@@ -138,7 +138,7 @@ This work studies whether LLM agents can learn behaviors that lead to emergent s
 
 ---
 
-### [21] Jiaxing Zheng, Changqing Li, Peng Wu, Li Pan (2026)
+### [21] Jiaxing Zheng, Changqing Li, Peng Wu, Li Pan (2026, Information Processing & Management)
 
 **[RoleSimLLM: Towards Large-scale and Comprehensive Social Propagation Simulation via Role-based LLM-driven Agents](https://www.sciencedirect.com/science/article/pii/S0306457326000804)**
 

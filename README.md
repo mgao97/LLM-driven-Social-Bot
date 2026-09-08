@@ -66,7 +66,7 @@ This work proposes BotEvo, a detection framework that explicitly models the beha
 
 This work investigates adversarial attacks against LLM-powered social bot detection systems and demonstrates that semantic and contextual attacks can substantially degrade detector performance. It further proposes a multi-LLM defense architecture, framing LLM-based bot detection as an evolving arms race between adaptive attacks and robust detection systems.
 
-### [12] Kaixuan Liu, Guojun Xiong, Weinan Zhang, Shengpu Tang (2026)
+### [12] Kaixuan Liu, Guojun Xiong, Weinan Zhang, Shengpu Tang (2026, arXiv)
 
 **[Social Networks of LLM Agents](https://arxiv.org/abs/2607.03695)**
 
@@ -74,7 +74,7 @@ This work studies how information and beliefs propagate through networks of LLM 
 
 ---
 
-### [13] Zhongyi Qiu, Hanjia Lyu, Wei Xiong, Jiebo Luo (2025)
+### [13] Zhongyi Qiu, Hanjia Lyu, Wei Xiong, Jiebo Luo (2025, arXiv)
 
 **[Can LLMs Simulate Social Media Engagement? A Study on Action-Guided Response Generation](https://arxiv.org/abs/2502.12073)**
 
